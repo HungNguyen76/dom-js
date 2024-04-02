@@ -1,9 +1,9 @@
 # DOM có 3 thành phần chính
 1. Element
 2. Attribute
-3 . Text
+3. Text
 
-Ex: <a href="https://google.com">Google</a>
+- Ex: a href="https://google.com">Google
 element: thẻ a
 attribute: href
 text: google
@@ -29,14 +29,13 @@ text: google
 
 # Style css cho element
 1. element.style.CSS_Method = "CSS_value"
-    Ex: p.style.border = "1px solid black"
-
-hay đổi cấu trúc của element
-2. textContent: thay đổi nội dung văn bản của element
-
+Ex: p.style.border = "1px solid black"
 
 # Event trong DOM
 1. sự kiện chuột: onmouseover, onmouseout
 2. sự kiện bàn phím: onkeyup, onkeydown, onkeypress
-
+3. sự kiện với layout web: scroll, resize
+4. sự kiện với hành động trên web: copy, paste, reload
+5. để thực thi khối lệnh khi sự kiện xảy ra: addEventListener() hoặc sử dụng thuộc tính trong elemment: onchange, onclick, onmouseover,...
+   
 ## Form

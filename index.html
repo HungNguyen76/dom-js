@@ -13,14 +13,7 @@
     <a class="a" id="linkGG" href="https://google.com">My Link</a>
 
     <p id="title"><button>Submit</button></p>
-    <!-- <p id="title"></p>
-    <p id="title3"></p>
-    <p id="title4"></p> -->
     <input id="submit">
-
-
-<!-- <div id="congTinh">
-        </div> -->
 
 <div id="div1">
 </div>
@@ -37,6 +30,35 @@
 
 <div class="congTinh1" onmouseover="mOver()" onmouseout="mOut(this)">
     Mouse over me
+</div>
+
+<!-- onkeydown -->
+<!-- hàm sẽ được gọi khi người dùng bấm 1 phím vào input -->
+<p>onkeydown</p>
+<input type="text" onkeydown="onKeyDownEvent()"/>
+
+<!-- onkeyup -->
+<p>onkeyup</p>
+<input type="text" id="fname" onkeyup="onKeyUpEvent()"/>
+
+<!-- onchange -->
+<p>onchange</p>
+<select id="mySelect" onchange="onChangeEvent()">
+    <option value="Iphone">Iphone</option>
+    <option value="Samsung">Samsung</option>
+    <option value="Huawei">Huawei</option>
+</select>
+<p id="demo2"></p>
+
+<div id="parent">
+    <h1>Child node 1</h1>
+    <h3>Child node 2</h3>
+    <p>Child node 3</p>
+</div>
+<div id="nextSib">
+    <h1>Child node 4</h1>
+    <h3>Child node 5</h3>
+    <p>Child node 6</p>
 </div>
 
 <script src="./index.js"></script>

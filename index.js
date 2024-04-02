@@ -90,3 +90,31 @@ function mOver() {
 function mOut(obj) {
     obj.innerHTML = "Mouse over me"
 }
+
+
+function onKeyDownEvent() {
+    alert("Bạn đã nhấn 1 phím vào ô input")
+}
+
+function onKeyUpEvent() {
+    let x = document.getElementById("fname")
+    x.value = x.value.toUpperCase()
+}
+
+function onChangeEvent() {
+    let x = document.getElementById("mySelect").value
+    document.getElementById("demo2").innerHTML = "You selected: " + x
+}
+
+const parentNode = document.getElementById("parent")
+const spanEl = document.createElement("span")
+parentNode.appendChild(spanEl)
+spanEl.innerHTML = "Hien cc"
+console.log("parentNode", parentNode)
+const childN = parentNode.childNodes
+console.log("childN", childN)
+
+
+const nextSib = parentNode.nextSibling.nextSibling
+console.log("nextSib", nextSib)
+
