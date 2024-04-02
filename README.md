@@ -39,3 +39,7 @@ Ex: p.style.border = "1px solid black"
 5. để thực thi khối lệnh khi sự kiện xảy ra: addEventListener() hoặc sử dụng thuộc tính trong elemment: onchange, onclick, onmouseover,...
    
 ## Form
+1.validate
+
+## Local storage
+1. JSON - Javascript String Object Notation

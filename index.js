@@ -117,3 +117,48 @@ console.log("childN", childN)
 
 const nextSib = parentNode.nextSibling.nextSibling
 
+//setItem nhận vào 2 tham số: 1.key 2.value
+window.localStorage.setItem("Hien tre trau", true)
+
+const listProducts1 = [
+    {
+        id: "1",
+        masp: "Ip",
+        sp: "15promax"
+    }
+]
+// const listProducts2 = [
+//     {
+//         id: "1",
+//         masp: "Ip",
+//         sp: "13promax"
+//     }
+// ]
+// const listProducts3 = [
+//     {
+//         id: "1",
+//         masp: "Ip",
+//         sp: "12promax"
+//     }
+// ]
+//JSON.stringify convert object, array => string
+window.localStorage.setItem("ListProducts1", JSON.stringify(listProducts1))
+// window.localStorage.setItem("ListProducts2", JSON.stringify(listProducts2))
+// window.localStorage.setItem("ListProducts3", JSON.stringify(listProducts3))
+// const str = JSON.stringify(listProducts)
+console.log("str", typeof str)
+
+//JSON.parse convert string => array object js
+// const listProductParse = JSON.parse(localStorage.getItem("ListProducts"))
+// console.log("listProductParse", listProductParse)
+
+localStorage.removeItem("Hien tre trau")
+
+// const keys = localStorage.key("ListProducts")
+// console.log("keys", keys)
+
+// for(let i = 0; i < localStorage.length;i++) {
+//     console.log(localStorage.getItem(localStorage.key(i)))
+// }
+
+console.log(JSON.parse(localStorage.getItem(localStorage.key("ListProducts1"))))
