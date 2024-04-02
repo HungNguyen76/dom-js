@@ -116,5 +116,4 @@ console.log("childN", childN)
 
 
 const nextSib = parentNode.nextSibling.nextSibling
-console.log("nextSib", nextSib)
 
